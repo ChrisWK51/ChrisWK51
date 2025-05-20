@@ -505,7 +505,7 @@ codegen/
 octave-workspace
 
 ### Stata template
-# .gitignore file for git projects containing Stata files
+# .gitignore file for git project containing Stata files
 # Commercial statistical software: http://www.stata.com
 
 # Stata dataset and output files
