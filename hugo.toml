@@ -640,8 +640,8 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
 # Permalinks config
 [Permalinks]
   # posts = ":year/:month/:filename"
-  posts = ":filename"
-  projects = ":filename"
+  posts = ":contentbasename"
+  projects = ":contentbasename"
 
 #Options to make output .md files
 [outputFormats.MarkDown]
