@@ -657,3 +657,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   section = ["HTML", "RSS"]
   taxonomy = ["HTML", "RSS"]
 
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
