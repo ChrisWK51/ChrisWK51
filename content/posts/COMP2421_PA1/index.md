@@ -22,7 +22,7 @@ toc:
 
 This project implements a MIPS-based radix converter that converts numbers from Decimal to various bases. 
 The converter is developed in MIPS assembly language and executed using QtSpim. 
-Completed as part of the COMP2421 course at the [HKPolyU]^(Hong Kong Polytechnic University).
+Completed as part of the **COMP2421** course at the [HKPolyU]^(Hong Kong Polytechnic University).
 
 ## Features
 
@@ -38,5 +38,5 @@ That said, completing this project was both rewarding and enjoyable.
 
 ## Related Link
 
-- [My Program](https://github.com/ChrisWK51/COMP2421_PA1)
+- [Source Code](https://github.com/ChrisWK51/COMP2421_PA1)
 - [The Course](https://www.polyu.edu.hk/comp/docdrive/ug/subject/COMP2421.pdf)

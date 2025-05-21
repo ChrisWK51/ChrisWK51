@@ -6,7 +6,7 @@ lastmod: 2025-05-20T18:50:00+08:00
 draft: false
 author: "Chris"
 authorLink: "https://ChrisKoonCK.com"
-description: "My Discord Bot " 
+description: "A custom Discord bot project I built using Python and Flask to automate server management tasks and add fun features for users." 
 images: []
 
 tags: ["Python","Discord.py","UptimeRobot","Flask","Archived"]
@@ -23,7 +23,7 @@ toc:
 I built a Discord bot called CDC Bot to make server management easier and more fun. The bot helps automate repetitive
 tasks and adds some cool interactive commands for users.
 
-I coded it in Python using the Discord.py library. I also added Flask to create simple webhooks so UptimeRobot could
+I coded it in **Python** using the [Discord.py](https://discordpy.readthedocs.io/) library, which made it easy to interact) library. I also added Flask to create simple webhooks so UptimeRobot could
 monitor the bot and restart it if it went offline.
 
 The bot was used in some private Discord servers for a while but is now retired. It mainly helped with moderation stuff
@@ -44,3 +44,9 @@ which taught me a lot about asynchronous programming and event-driven design.
 Figuring out how to integrate Flask for webhooks and UptimeRobot for monitoring was challenging but rewarding.
 I enjoyed seeing the bot in action, helping with server moderation and bringing some fun among the friend. 
 Will create a new version of the Discord a long with a telegram bot in the future .
+
+## Related Links
+
+- [GitHub Repository](https://github.com/ChrisWK51/CDCBot)
+- [Discord.py Documentation](https://discordpy.readthedocs.io/en/stable/)
+- [Flask Documentation](https://flask.palletsprojects.com)

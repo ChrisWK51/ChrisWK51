@@ -1,15 +1,18 @@
 ---
 weight: 1
-title: "Hi, Welcome here"
-date: 2025-05-20T17:30:00+08:00
+title: "Hi, Welcome to my page!"
+date: 2025-05-20T00:00:00+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
 author: "Chris"
 authorLink: "https://ChrisKoonCK.com"
 description: "Hello, welcome-to-my-page, created with Hugo and LoveIt theme" 
 images: []
+resources:
+- name: "featured-image"
+  src: "featured-image.jpg"
 
-tags: ["Hugo"]
+tags: ["Hugo", "LoveIt"]
 categories: ["Miscellaneous"]
 
 lightgallery: true
