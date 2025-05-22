@@ -1,4 +1,4 @@
-baseURL = "https://ChrisKoonCK.com"
+baseURL = "https://www.chriskoon.tech/"
 
 # Change the default theme to be use when building the site with Hugo
 theme = "LoveIt"
@@ -424,23 +424,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # LoveIt CHANGED | 0.2.0 Comment config
     [params.page.comment]
       enable = true
-      # Disqus comment config
-      [params.page.comment.disqus]
-        # LoveIt NEW | 0.1.1
-        enable = false
-        # Disqus shortname to use Disqus in posts
-        shortname = ""
       # Gitalk comment config
       [params.page.comment.gitalk]
         # LoveIt NEW | 0.1.1
-        enable = false
+        enable = true
         owner = ""
         repo = ""
         clientId = ""
         clientSecret = ""
       # Valine comment config
       [params.page.comment.valine]
-        enable = false
+        enable = true
         appId = ""
         appKey = ""
         placeholder = ""
@@ -454,15 +448,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         highlight = true
         enableQQ = false
         serverURLs = ""
-        # LoveIt NEW | 0.2.6 emoji data file name, default is "google.yml"
-        # ["apple.yml", "google.yml", "facebook.yml", "twitter.yml"]
-        # located in "themes/LoveIt/assets/lib/valine/emoji/" directory
-        # you can store your own data files in the same path under your project:
-        # "assets/lib/valine/emoji/"
         emoji = ""
       # Facebook comment config
       [params.page.comment.facebook]
-        enable = false
+        enable = true
         width = "100%"
         numPosts = 10
         appId = ""
@@ -470,7 +459,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         languageCode = ""
       # LoveIt NEW | 0.2.0 Telegram comments config
       [params.page.comment.telegram]
-        enable = false
+        enable = true
         siteID = ""
         limit = 5
         height = ""
@@ -480,10 +469,10 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         outlined = false
       # LoveIt NEW | 0.2.0 Commento comment config
       [params.page.comment.commento]
-        enable = false
+        enable = true
       # LoveIt NEW | 0.2.5 utterances comment config
       [params.page.comment.utterances]
-        enable = false
+        enable = true
         # owner/repo
         repo = ""
         issueTerm = "pathname"
@@ -493,7 +482,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = false
+        enable = true
         repo = ""
         repoId = ""
         category = "Announcements"

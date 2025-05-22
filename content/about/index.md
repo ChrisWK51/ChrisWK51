@@ -4,7 +4,7 @@ date: 2025-05-20T02:44:13+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
 author: "Chris"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "About me"
 images: []
 resources:

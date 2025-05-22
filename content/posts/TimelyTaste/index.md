@@ -5,7 +5,7 @@ date: 2022-01-05T00:00:00+08:00
 lastmod: 2025-05-21T00:00:00+08:00
 draft: false
 author: "Chris Koon"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "TimelyTaste is a containerized, event-driven microservices architecture backend RESTful API, designed with reference to UberEat API. Completed as a group project as part of the COMP3122 course at the HKPolyU."
 images: []
 resources:

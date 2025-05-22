@@ -5,7 +5,7 @@ date: 2022-04-22T00:00:00+08:00
 lastmod: 2025-05-20T18:50:00+08:00
 draft: false
 author: "Chris"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "A custom Discord bot project I built using Python and Flask to automate server management tasks and add fun features for users." 
 images: []
 

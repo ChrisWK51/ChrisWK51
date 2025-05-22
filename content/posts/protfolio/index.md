@@ -5,7 +5,7 @@ date: 2022-01-05T00:00:00+08:00
 lastmod: 2025-05-21T00:00:00+08:00
 draft: false
 author: "Chris Koon"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "My old personal home page, created with React and Bootstrap, and hosted on GitHub Pages."
 images: []
 resources:

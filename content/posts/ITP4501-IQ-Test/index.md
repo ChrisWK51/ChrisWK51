@@ -5,7 +5,7 @@ date: 2020-07-16T00:00:00+08:00
 lastmod: 2025-05-21T16:10:00+08:00
 draft: false
 author: "Chris"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "A Java-Based IQ Test Android App that I developed as a project for my ITP4501 module."
 images: []
 resources:

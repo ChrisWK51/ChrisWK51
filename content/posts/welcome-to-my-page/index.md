@@ -5,7 +5,7 @@ date: 2025-05-20T00:00:00+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
 author: "Chris"
-authorLink: "https://ChrisKoonCK.com"
+authorLink: "https://www.chriskoon.tech/"
 description: "Hello, welcome-to-my-page, created with Hugo and LoveIt theme" 
 images: []
 resources:
