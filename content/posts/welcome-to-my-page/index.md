@@ -48,7 +48,7 @@ you can move to about page [here](/about/)
 
 ## My Projects 
 
-You can find my projects in the projects section [here](/projects/) and source code on my GitHub
+You can find my projects in the projects section [here](/categories/project/) and source code on my GitHub
 
 ## How to Reach Me
 
