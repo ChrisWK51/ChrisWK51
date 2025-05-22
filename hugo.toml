@@ -427,14 +427,14 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # Gitalk comment config
       [params.page.comment.gitalk]
         # LoveIt NEW | 0.1.1
-        enable = true
+        enable = false
         owner = ""
         repo = ""
         clientId = ""
         clientSecret = ""
       # Valine comment config
       [params.page.comment.valine]
-        enable = true
+        enable = false
         appId = ""
         appKey = ""
         placeholder = ""
@@ -451,7 +451,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         emoji = ""
       # Facebook comment config
       [params.page.comment.facebook]
-        enable = true
+        enable = false
         width = "100%"
         numPosts = 10
         appId = ""
@@ -459,7 +459,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         languageCode = ""
       # LoveIt NEW | 0.2.0 Telegram comments config
       [params.page.comment.telegram]
-        enable = true
+        enable = false
         siteID = ""
         limit = 5
         height = ""
@@ -469,12 +469,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
         outlined = false
       # LoveIt NEW | 0.2.0 Commento comment config
       [params.page.comment.commento]
-        enable = true
+        enable = false
       # LoveIt NEW | 0.2.5 utterances comment config
       [params.page.comment.utterances]
         enable = true
         # owner/repo
-        repo = ""
+        repo = "ChrisWK51/ChrisWK51"
         issueTerm = "pathname"
         label = ""
         lightTheme = "github-light"
@@ -482,7 +482,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # giscus comment config (https://giscus.app/)
       [params.page.comment.giscus]
         # You can refer to the official documentation of giscus to use the following configuration.
-        enable = true
+        enable = false
         repo = ""
         repoId = ""
         category = "Announcements"
