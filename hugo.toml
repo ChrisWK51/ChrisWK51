@@ -94,12 +94,12 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # LoveIt NEW | 0.2.0 date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "This is my personal page"
+  title = "Chris Koon's personal page"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "This is my personal page"
+  description = "TChris Koon's personal page"
   # website images for Open Graph and Twitter Cards
-  images = ["/logo.png"]
-
+  images = ["/images/avatar.png"]
+  avatarurl = "/images/avatar.jpg"
 
   # Author config
   [params.author]
