@@ -50,6 +50,10 @@ you can move to about page [here](/about/)
 
 You can find my projects in the projects section [here](/categories/project/) and source code on my GitHub
 
+## Timezone
+This page is set to Hong Kong Time (HKT), which is UTC+8 (Asia/Hong_Kong).
+
+
 ## How to Reach Me
 
 You can reach me through the following platforms:
