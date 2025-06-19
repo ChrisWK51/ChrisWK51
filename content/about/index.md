@@ -22,11 +22,11 @@ math:
 
 Hi, I am Chris Koon. I am a passionate developer and lifelong learner in Hong Kong.
 
-I am soon-to-be graduate from [HKPolyU]^(Hong Kong Polytechnic University) where I am completing 
-[BSc in Computing](https://www.polyu.edu.hk/comp/study/ug-programmes/comp/), 
+I graduated from [HKPolyU]^(Hong Kong Polytechnic University) where I completed 
+[B.Sc. in Computing](https://www.polyu.edu.hk/comp/study/ug-programmes/comp/) in 2025, 
 Additionally, I hold a 
 [HD in Software Engineering](https://www.vtc.edu.hk/admission/en/programme/it114105-higher-diploma-in-software-engineering/)
-from **HKIVE** obtained through [VTC]^(Vocational Training Council). 
+from **HKIVE** obtained through [VTC]^(Vocational Training Council) in 2021. 
 
 Technology is my driving force.
 I thrive on diving into complex problems and crafting innovative solutions through coding
