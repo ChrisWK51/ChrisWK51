@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="robots" content="noindex">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <title>Redirecting...</title>
+
+  <script>
+    (() => {
+      const target = "https://www.kitkoon.com";
+      const oldBase = "/ChrisWK51";
+
+      let path = window.location.pathname;
+
+      // Remove old GitHub Pages project prefix
+      if (path === oldBase) {
+        path = "/";
+      } else if (path.startsWith(oldBase + "/")) {
+        path = path.slice(oldBase.length);
+      }
+
+      window.location.replace(
+        target + path + window.location.search + window.location.hash
+      );
+    })();
+  </script>
+</head>
+
+<body>
+  <p>
+    Redirecting to
+    <a href="https://www.kitkoon.com/">www.kitkoon.com</a>...
+  </p>
+</body>
+</html>
