@@ -1,12 +1,12 @@
 ---
-weight: 1
-title: "IQ Test Android App"
+title: "IQ Test: An Android App in Java"
 date: 2020-07-16T00:00:00+08:00
 lastmod: 2025-05-21T16:10:00+08:00
 draft: false
-author: "Chris"
-authorLink: "https://www.chriskoon.tech/"
-description: "A Java-Based IQ Test Android App that I developed as a project for my ITP4501 module."
+author: "KitKoon"
+authorLink: "/about/"
+description: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
+summary: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
 images: []
 resources:
 - name: "featured-image"
@@ -21,7 +21,7 @@ toc:
   auto: false
 ---
 
-## What is this
+## Overview
 This is a Java-based IQ test Android app that I developed as a project for my ITP4501 course.
 The app is designed to provide users with a series of numerical reasoning questions and evaluate their performance based on their answers.
 The project was completed as part of the ITP4501 course at the **HKIVE**.
@@ -38,7 +38,7 @@ The project was completed as part of the ITP4501 course at the **HKIVE**.
 - Bar chart visualization of scores.
 
 
-## My thoughts
+## What I learned
 Developing this app was a great learning experience for me.
 I learned a lot about Android development, Java programming, and database management.
 I also gained valuable insights into user experience design and how to create an engaging app.

@@ -3,8 +3,8 @@ title: "About me"
 date: 2025-05-20T02:44:13+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
-author: "Chris"
-authorLink: "https://www.chriskoon.tech/"
+author: "KitKoon"
+authorLink: "/about/"
 description: "About me"
 images: []
 resources:
@@ -18,9 +18,9 @@ math:
 
 
 ---
-![Goose game image geneterated using Gpt4o](/images/about_goose.png "Goose game image geneterated using Gpt4o")
+![Goose game image generated using GPT-4o](/images/about_goose.png "Goose game image generated using GPT-4o")
 
-Hi, I am Chris Koon. I am a passionate developer and lifelong learner in Hong Kong.
+Hi, I am KitKoon. I am a passionate developer and lifelong learner in Hong Kong.
 
 I graduated from [HKPolyU]^(Hong Kong Polytechnic University) where I completed 
 [B.Sc. in Computing](https://www.polyu.edu.hk/comp/study/ug-programmes/comp/) in 2025, 

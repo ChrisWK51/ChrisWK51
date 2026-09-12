@@ -1,16 +1,13 @@
 ---
-weight: 2
-title: "Personal Home Page"
+title: "Building My Personal Site with Hugo"
 date: 2025-05-20T17:26:00+08:00
 lastmod: 2025-05-20T17:26:00+08:00
 draft: false
-author: "Chris Koon"
-authorLink: "https://www.chriskoon.tech/"
-description: "My personal Home Page that you are visiting, created with Hugo and LoveIt Theme."
+author: "KitKoon"
+authorLink: "/about/"
+description: "Why I rebuilt my personal site with Hugo and the LoveIt theme after maintaining a React portfolio."
+summary: "Why I rebuilt my personal site with Hugo and the LoveIt theme after maintaining a React portfolio."
 images: []
-resources:
-- name: "featured-image"
-  src: "featured-image.jpg"
 
 tags: ["Hugo", "LoveIt","Completed"]
 categories: ["project"]
@@ -21,8 +18,8 @@ toc:
   auto: false
 ---
 
-## What is this?
-This is my personal home page, you are visiting, created with [Hugo](https://gohugo.io/) and [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme, and hosted on **GitHub Pages**. 
+## Overview
+This is the personal site you are visiting, created with [Hugo](https://gohugo.io/) and the [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme. It was originally hosted on **GitHub Pages**.
 It serves as a place for me to share my thoughts, projects, and interests with the world.
 
 ## Features
@@ -31,8 +28,8 @@ It serves as a place for me to share my thoughts, projects, and interests with t
 - Search functionality
 - Links to my social media and other platforms
 
-## My thoughts
-My old personal page was made 3 years ago, 
+## What I learned
+I built my [previous personal site]({{< relref "/posts/protfolio" >}}) in 2022,
 and I think it is time to update it. 
 But the old version was hard to maintain, 
 so I decided to use **Hugo** and **LoveIt** theme to create a new one, 

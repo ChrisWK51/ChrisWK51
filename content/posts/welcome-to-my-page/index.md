@@ -1,12 +1,12 @@
 ---
-weight: 1
-title: "Hi, Welcome to my page!"
+title: "Welcome to My Blog"
 date: 2025-05-20T00:00:00+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
-author: "Chris"
-authorLink: "https://www.chriskoon.tech/"
-description: "Hello, welcome-to-my-page, created with Hugo and LoveIt theme" 
+author: "KitKoon"
+authorLink: "/about/"
+description: "An introduction to my blog: development projects, things I am learning, and a few personal interests."
+summary: "An introduction to my blog: development projects, things I am learning, and a few personal interests."
 images: []
 resources:
 - name: "featured-image"
@@ -21,8 +21,8 @@ toc:
   auto: false
 ---
 
-## What is this
-This is a my personal page created with [**Hugo**](https://gohugo.io/) and [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme, and hosted on **GitHub Pages**. 
+## About this blog
+This is my personal site, created with [**Hugo**](https://gohugo.io/) and the [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme, originally hosted on **GitHub Pages**.
 It serves as a place for me to share my thoughts, projects, and interests with the world.
 
 ## Why create this page
@@ -44,11 +44,11 @@ I hope you enjoy your visit and find something that resonates with you.
 Feel free to reach out if you have any questions or comments!
 
 ## Know more about me 
-you can move to about page [here](/about/)
+Read [more about me]({{< relref "/about" >}}).
 
 ## My Projects 
 
-You can find my projects in the projects section [here](/categories/project/) and source code on my GitHub
+Browse my [selected projects]({{< relref "/projects" >}}) or find the source code on [GitHub](https://github.com/ChrisWK51).
 
 ## Timezone
 This page is set to Hong Kong Time (HKT), which is UTC+8 (Asia/Hong_Kong).

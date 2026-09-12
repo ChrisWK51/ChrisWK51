@@ -1,15 +1,15 @@
 ---
-weight: 1
-title: "NextJs.Learn"
+title: "Next.js Dashboard: Learning Full-Stack Development"
 date: 2025-09-26T06:00:00+08:00
 lastmod: 2025-09-26T06:00:00+08:00
 draft: false
-author: "Chris"
-authorLink: "https://www.chriskoon.tech/"
-description: "A Nextjs Dashboard app following the official Next.js tutorial provided by Vercel" 
+author: "KitKoon"
+authorLink: "/about/"
+description: "A dashboard built with Next.js, TypeScript, and Tailwind CSS while following Vercel's official tutorial."
+summary: "A dashboard built with Next.js, TypeScript, and Tailwind CSS while following Vercel's official tutorial."
 images: []
 
-tags: ["Typescript","Node.js","Tailwind","React","Next.js","Vercel"]
+tags: ["TypeScript","Node.js","Tailwind","React","Next.js","Vercel"]
 categories: ["project"]
 
 lightgallery: true
@@ -18,7 +18,7 @@ toc:
   auto: false
 ---
 
-## What it is
+## Overview
 
 I built a Next.js Dashboard app following the official Next.js tutorial provided by Vercel. 
 It's a full-stack web application showcasing modern web development practices with Next.js and TypeScript. 
@@ -32,7 +32,7 @@ The dashboard provides a clean, responsive interface for data visualization and 
 - Seamless deployment on Vercel with automatic builds and CI/CD integration.
 - Interactive data visualization and management components for intuitive user experience.
 
-## My thoughts
+## What I learned
 
 Building this Next.js dashboard was an excellent learning experience in full-stack development for me. 
 It deepened my understanding of React component architecture, 
@@ -46,4 +46,4 @@ This project solidified my skills in contemporary web development practices and 
 
 - [GitHub Repository](https://github.com/ChrisWK51/nextjs.learn)
 - [Next.js](https://nextjs.org/)
-- [Nextjs Dashboard app Tutorial](https://nextjs.org/learn/dashboard-app)
+- [Next.js Dashboard Tutorial](https://nextjs.org/learn/dashboard-app)

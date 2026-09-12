@@ -4,7 +4,7 @@ baseURL = "https://www.kitkoon.com/"
 theme = "LoveIt"
 
 # website title
-title = "Chris Koon's Home"
+title = "KitKoon's Home"
 
 
 defaultContentLanguage = "en"
@@ -55,17 +55,17 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     identifier = "posts"
     pre = ""
     post = ""
-    name = "Posts"
+    name = "Blog"
     url = "/posts/"
-    title = "My Post"
+    title = "All posts, newest first"
   [[menu.main]]
     weight = 3
     identifier = "project"
     pre = ""
     post = ""
     name = "Projects"
-    url = "/categories/project"
-    title = "My project"
+    url = "/projects/"
+    title = "Selected projects and earlier work"
   [[menu.main]]
     weight = 4
     identifier = "tags"
@@ -73,14 +73,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     post = ""
     name = "Tags"
     url = "/tags/"
-    title = ""
-  [[menu.main]]
-    weight = 5
-    identifier = "categories"
-    pre = ""
-    post = ""
-    name = "Categories"
-    url = "/categories/"
     title = ""
 
 [params]
@@ -94,16 +86,16 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
   # LoveIt NEW | 0.2.0 date format
   dateFormat = "2006-01-02"
   # website title for Open Graph and Twitter Cards
-  title = "Chris Koon's personal page"
+  title = "KitKoon's personal page"
   # website description for RSS, SEO, Open Graph and Twitter Cards
-  description = "Chris Koon's personal page"
+  description = "Projects and development notes from KitKoon, a full-stack developer in Hong Kong."
   # website images for Open Graph and Twitter Cards
   images = ["https://github.com/ChrisWK51.png"]
   avatarurl = "https://github.com/ChrisWK51.png"
 
   # Author config
   [params.author]
-    name = "Chris Koon"
+    name = "KitKoon"
     email = ""
     link = ""
 
@@ -118,7 +110,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of the LOGO
       logo = ""
       # title name
-      name = "Chris Koon"
+      name = "KitKoon"
       # you can add extra information before the name (HTML format is supported), such as icons
       pre = ""
       # you can add extra information after the name (HTML format is supported), such as icons
@@ -165,7 +157,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     # LoveIt NEW | 0.2.0 App icon config
   [params.app]
     # optional site title override for the app when added to an iOS home screen or Android launcher
-    title = "Chris Site"
+    title = "KitSite"
     # whether to omit favicon resource links
     noFavicon = false
     # modern SVG favicon to use in place of older style .png and .ico files
@@ -213,7 +205,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
       title = ""
       # subtitle shown in home page (HTML format is supported)
-      subtitle = "Passionate Full Stack Developer"
+      subtitle = "Full-stack developer in Hong Kong"
       # whether to use typeit animation for subtitle
       typeit = true
       # whether to show social links
@@ -222,20 +214,6 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       disclaimer = ""
     # Home page posts
     [params.home.posts]
-      enable = true
-      # special amount of posts in each home posts page
-      paginate = 6
-      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
-    [params.home.projects]
-      enable = true
-      # special amount of posts in each home posts page
-      paginate = 6
-      # LoveIt DELETED | 0.2.0 replaced with hiddenFromHomePage in params.page
-      # default behavior when you don't set "hiddenFromHomePage" in front matter
-      defaultHiddenFromHomePage = false
-    [params.home.about]
       enable = true
       # special amount of posts in each home posts page
       paginate = 6
