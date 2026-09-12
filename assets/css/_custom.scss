@@ -1,0 +1,13 @@
+.header-title .raccoon-logo {
+  width: 1.35em;
+  height: 1.35em;
+  margin-right: .2rem;
+  vertical-align: middle;
+}
+
+// Keep the full blog name and menu button visible on narrow phones.
+@media only screen and (max-width: 380px) {
+  #header-mobile {
+    --header-title-font-size: 1.125rem;
+  }
+}

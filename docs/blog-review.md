@@ -62,7 +62,6 @@ This uses Hugo's documented [default page ordering](https://gohugo.io/quick-refe
 
 ## Existing technical follow-ups
 
-- The site requests favicon and webmanifest files that are absent from this checkout.
 - The configuration requests Markdown page output, but the theme has no matching template. Hugo builds HTML successfully and emits a warning for that output.
 - The GitHub Actions workflow currently publishes a redirect to kitkoon.com. It does not build this Hugo site. Publish these source changes through whichever service currently builds that domain.
 

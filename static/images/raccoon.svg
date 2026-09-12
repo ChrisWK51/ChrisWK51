@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <title>Kit Koon's raccoon logo</title>
+  <g id="raccoon" fill="currentColor">
+    <path d="M13 26C9 18 9 12 12 9C17 9 21 13 24 17Q32 14 40 17C43 13 47 9 52 9C55 12 55 18 51 26L59 34L54 37L56 41L43 51Q32 59 21 51L8 41L10 37L5 34Z" fill="none" stroke="currentColor" stroke-width="3.5" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M14 15Q17 16 20 20L16 22ZM50 15Q47 16 44 20L48 22Z"/>
+    <path fill-rule="evenodd" d="M11 31Q18 25 26 29L32 32L38 29Q46 25 53 31L49 38Q42 45 35 38L32 36L29 38Q22 45 15 38ZM25 34A3 2.5 0 1 0 19 34A3 2.5 0 1 0 25 34ZM45 34A3 2.5 0 1 0 39 34A3 2.5 0 1 0 45 34Z"/>
+    <path d="M28 43Q32 41 36 43Q36 46 32 48Q28 46 28 43Z"/>
+  </g>
+</svg>
