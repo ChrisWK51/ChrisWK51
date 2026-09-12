@@ -2,10 +2,24 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <meta name="robots" content="noindex">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-  <title>Redirecting...</title>
+  <title>Chris Koon's Home</title>
+
+  <meta name="description" content="Chris Koon's personal website">
+
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Chris Koon's Home">
+  <meta property="og:description" content="Chris Koon's personal website">
+  <meta property="og:url" content="https://www.kitkoon.com/">
+  <meta property="og:image" content="https://github.com/ChrisWK51.png">
+
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Chris Koon's Home">
+  <meta name="twitter:description" content="Chris Koon's personal website">
+  <meta name="twitter:image" content="https://github.com/ChrisWK51.png">
+
+  <link rel="canonical" href="https://www.kitkoon.com/">
 
   <script>
     (() => {
@@ -14,7 +28,6 @@
 
       let path = window.location.pathname;
 
-      // Remove old GitHub Pages project prefix
       if (path === oldBase) {
         path = "/";
       } else if (path.startsWith(oldBase + "/")) {
