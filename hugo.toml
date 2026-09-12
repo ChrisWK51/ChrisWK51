@@ -203,7 +203,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
       # URL of avatar shown in home page
       avatarURL = "https://github.com/ChrisWK51.png"
       # LoveIt CHANGED | 0.2.7 title shown in home page (HTML format is supported)
-      title = ""
+      title = "Kit Koon"
       # subtitle shown in home page (HTML format is supported)
       subtitle = "Full-stack developer in Hong Kong"
       # whether to use typeit animation for subtitle
