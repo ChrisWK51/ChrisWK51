@@ -304,7 +304,7 @@ ignoreErrors = ["error-remote-getjson", "error-missing-instagram-accesstoken"]
     HuggingFace = "" # LoveIt NEW | 0.3.1
     Threads = "" # LoveIt NEW | 0.3.1
     Phone = ""
-    Email = "koon.chunkit@outlook.com"
+    Email = "contact@kitkoon.com"
     RSS = false # LoveIt NEW | 0.2.0
 
   # LoveIt CHANGED | 0.2.0 Page global config

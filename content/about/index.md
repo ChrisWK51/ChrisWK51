@@ -45,4 +45,4 @@ or causing playful chaos in [Untitled Goose Game](https://store.steampowered.com
 On top of that, I am a huge fan of bullet hell games, dodging insane patterns and chasing that adrenaline rush.
 Feel free to connect with me on [GitHub](https://github.com/ChrisWK51) or [LinkedIn](https://linkedin.com/in/koonchris).
 
-You can also contact me via [Discord](https://discordapp.com/users/924571292244525057) or [Email](mailto:koon.chunkit@outlook.com).
+You can also contact me via [Discord](https://discordapp.com/users/924571292244525057) or [Email](mailto:contact@kitkoon.com).

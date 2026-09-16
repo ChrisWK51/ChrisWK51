@@ -61,4 +61,4 @@ You can reach me through the following platforms:
 - [GitHub](https://github.com/ChrisWK51)
 - [LinkedIn](https://linkedin.com/in/koonchris)
 - [Discord](https://discordapp.com/users/924571292244525057)
-- [Email](mailto:koon.chunkit@outlook.com)
+- [Email](mailto:contact@kitkoon.com)
