@@ -8,6 +8,7 @@ authorLink: "/about/"
 description: "An introduction to my blog: development projects, things I am learning, and a few personal interests."
 summary: "An introduction to my blog: development projects, things I am learning, and a few personal interests."
 images: []
+featuredImage: "featured-image.jpg"
 resources:
 - name: "featured-image"
   src: "featured-image.jpg"
@@ -22,7 +23,7 @@ toc:
 ---
 
 ## About this blog
-This is my personal site, created with [**Hugo**](https://gohugo.io/) and the [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme, originally hosted on **GitHub Pages**.
+This is my personal site, built with [**Hugo**](https://gohugo.io/) and the [**DoIt**](https://hugodoit.pages.dev/) theme, and hosted on **Cloudflare Pages**. It originally launched with LoveIt on GitHub Pages.
 It serves as a place for me to share my thoughts, projects, and interests with the world.
 
 ## Why create this page

@@ -2,7 +2,7 @@
 
 The editable source is [static/images/raccoon.svg](../static/images/raccoon.svg).
 It uses the surrounding text color so the header logo follows the site's theme.
-The header embeds it through the LoveIt title prefix; the visible blog name labels
+The header embeds it through the DoIt title prefix; the visible blog name labels
 the home link, so the decorative icon is hidden from screen readers.
 
 The favicon uses the same shape in off-white on charcoal. The SVG, ICO, PNG,

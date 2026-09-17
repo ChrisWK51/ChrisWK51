@@ -1,0 +1,2 @@
+*.sh text eol=lf
+.hugo-version text eol=lf

@@ -10,7 +10,7 @@ Start with the featured work, then browse my learning projects and earlier exper
 ## Featured work
 
 1. **[TimelyTaste: A Food Delivery Backend]({{< relref "/posts/TimelyTaste" >}})** — A group project using Python, Flask, MongoDB, and Docker to build an event-driven backend. Read about the microservices architecture and working with a team.
-2. **[Building My Personal Site with Hugo]({{< relref "/posts/personal_page" >}})** — The site you are reading, built with Hugo and the LoveIt theme. A move from my earlier React portfolio to a site that is easier to maintain.
+2. **[Building My Personal Site with Hugo]({{< relref "/posts/personal_page" >}})** — The site you are reading, built with Hugo and the DoIt theme. A move from my earlier React portfolio to a site that is easier to maintain.
 
 ## Learning and coursework
 

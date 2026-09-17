@@ -8,6 +8,7 @@ authorLink: "/about/"
 description: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
 summary: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
 images: []
+featuredImage: "featured-image.png"
 resources:
 - name: "featured-image"
   src: "featured-image.png"

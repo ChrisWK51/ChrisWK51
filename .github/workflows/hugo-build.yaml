@@ -1,0 +1,36 @@
+name: Check Hugo build
+
+on:
+  push:
+    branches: ["master"]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          submodules: recursive
+          fetch-depth: 0
+
+      - name: Read Hugo version
+        id: version
+        run: echo "hugo=$(tr -d '\r\n' < .hugo-version)" >> "$GITHUB_OUTPUT"
+
+      - name: Install Hugo Extended
+        uses: peaceiris/actions-hugo@v3
+        with:
+          hugo-version: ${{ steps.version.outputs.hugo }}
+          extended: true
+
+      - name: Build site
+        run: bash scripts/build.sh
+
+      - name: Check pages, links, and search
+        shell: pwsh
+        run: ./scripts/check-site.ps1
