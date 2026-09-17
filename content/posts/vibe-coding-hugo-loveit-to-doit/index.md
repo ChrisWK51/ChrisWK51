@@ -84,6 +84,8 @@ After sorting out the environment setting, the preview deployed successfully. Bo
 
 After deployment, I saw a badly arranged page and thought something was still wrong. Clearing my browser cache fixed it.
 
+![The page looked broken until the browser cache was cleared and the page was refreshed.](browser-cache-before-refresh.png)
+
 That was a useful final reminder: even after the build and deployment succeed, check what the browser is actually displaying. A hard refresh or a fresh browser session is a quick thing to try when the page looks different from the preview.
 
 ## What I took away
