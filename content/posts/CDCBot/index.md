@@ -3,7 +3,7 @@ title: "CDC Bot: A Python Discord Bot"
 date: 2022-04-22T00:00:00+08:00
 lastmod: 2025-05-20T18:50:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "A retired Python Discord bot for server moderation, custom commands, and notifications, with Flask and UptimeRobot monitoring."
 summary: "A retired Python Discord bot for server moderation, custom commands, and notifications, with Flask and UptimeRobot monitoring."

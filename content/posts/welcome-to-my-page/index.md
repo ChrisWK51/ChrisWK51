@@ -3,7 +3,7 @@ title: "Welcome to My Blog"
 date: 2025-05-20T00:00:00+08:00
 lastmod: 2025-05-20T17:30:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "An introduction to my blog: development projects, things I am learning, and a few personal interests."
 summary: "An introduction to my blog: development projects, things I am learning, and a few personal interests."

@@ -3,7 +3,7 @@ title: "TimelyTaste: A Food Delivery Backend"
 date: 2022-01-05T00:00:00+08:00
 lastmod: 2025-05-21T00:00:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "An event-driven food delivery backend built with Python, Flask, MongoDB, and Docker as a group project at HKPolyU."
 summary: "An event-driven food delivery backend built with Python, Flask, MongoDB, and Docker as a group project at HKPolyU."

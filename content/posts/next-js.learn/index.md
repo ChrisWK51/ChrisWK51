@@ -3,7 +3,7 @@ title: "Next.js Dashboard: Learning Full-Stack Development"
 date: 2025-09-26T06:00:00+08:00
 lastmod: 2025-09-26T06:00:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "A dashboard built with Next.js, TypeScript, and Tailwind CSS while following Vercel's official tutorial."
 summary: "A dashboard built with Next.js, TypeScript, and Tailwind CSS while following Vercel's official tutorial."

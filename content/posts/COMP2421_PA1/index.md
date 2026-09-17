@@ -3,7 +3,7 @@ title: "MIPS Radix Converter"
 date: 2023-03-26T00:00:00+08:00
 lastmod: 2025-05-20T18:50:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "A MIPS assembly program that converts decimal integers to binary, quaternary, and octal, built for COMP2421 at HKPolyU."
 summary: "A MIPS assembly program that converts decimal integers to binary, quaternary, and octal, built for COMP2421 at HKPolyU."
