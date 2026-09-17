@@ -1,68 +1,23 @@
-# Kit Koon's Blog
+# Hi, I'm Kit Koon 🦝
 
-Personal blog and portfolio at [www.kitkoon.com](https://www.kitkoon.com/), built with Hugo Extended and the DoIt theme, hosted on Cloudflare Pages.
+I'm a full-stack developer in Hong Kong. I build web applications and backend services, and write about my projects and what I'm learning.
 
-## Versions
+[Blog](https://www.kitkoon.com/) · [Projects](https://www.kitkoon.com/projects/) · [About me](https://www.kitkoon.com/about/) · [Email](mailto:contact@kitkoon.com)
 
-- Hugo Extended **0.166.0**, pinned in [.hugo-version](.hugo-version).
-- DoIt **v1.0.2**, pinned by the Git submodule at `themes/DoIt`.
+## Some of my work
 
-## Local development
+- **[TimelyTaste](https://www.kitkoon.com/timelytaste/)** — A group project building a food delivery backend with Python, Flask, MongoDB, and Docker.
+- **[Next.js Dashboard](https://github.com/ChrisWK51/nextjs.learn)** — A learning project following Vercel's tutorial, using Next.js, TypeScript, and Tailwind CSS.
+- **[My personal blog](https://www.kitkoon.com/personal_page/)** — Built with Hugo and DoIt, hosted on Cloudflare Pages. A place for project write-ups, development notes, and experiments.
 
-Install the matching [Hugo Extended release](https://github.com/gohugoio/hugo/releases/tag/v0.166.0), then initialize the theme:
+## A bit more about me
 
-```sh
-git submodule update --init --recursive
-hugo server --disableFastRender
-```
+I graduated from Hong Kong Polytechnic University with a B.Sc. in Computing in 2025, after completing a Higher Diploma in Software Engineering at HKIVE in 2021.
 
-To preview production features, including Utterances comments:
+Away from code, I enjoy Slay the Spire, Balatro, and causing trouble in Untitled Goose Game.
 
-```sh
-hugo server --environment production --disableFastRender
-```
+You can also find me on [LinkedIn](https://www.linkedin.com/in/koonchris/) or reach me at [contact@kitkoon.com](mailto:contact@kitkoon.com).
 
-Build with `bash scripts/build.sh` (Git Bash on Windows). This checks the installed Hugo version and fails on build warnings. From PowerShell, the equivalent build command is:
+---
 
-```powershell
-hugo --environment production --minify --panicOnWarning
-./scripts/check-site.ps1
-```
-
-## Cloudflare Pages
-
-Configure the existing Pages project as follows. Apply the environment variable to both **Production** and **Preview**.
-
-| Setting | Value |
-| --- | --- |
-| Production branch | `master` |
-| Root directory | Repository root |
-| Build command | `bash scripts/build.sh` |
-| Build output directory | `public` |
-| Environment variable | `HUGO_VERSION=0.166.0` |
-
-Cloudflare uses `HUGO_VERSION` to select Hugo; `.hugo-version` is the repository's version pin and is checked by the build script. See [Cloudflare's Hugo guide](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/).
-
-Set the Preview version and review a branch deployment before merging the migration into `master`. Coordinate the Production version change with the merge: the previous LoveIt configuration needs Hugo 0.145.0, while this configuration requires the new version. Confirm the log reports `0.166.0` and `+extended`.
-
-The `Check Hugo build` GitHub workflow validates the site without deploying it. The separate GitHub Pages workflow publishes the existing redirect to kitkoon.com.
-
-## Updating Hugo or the theme
-
-Use a branch, update one pinned version at a time, and run the production build. For a theme release:
-
-```sh
-git -C themes/DoIt fetch --tags
-git -C themes/DoIt checkout <release-tag>
-git add themes/DoIt
-```
-
-For Hugo, update `.hugo-version` and test with that exact Extended release. Update Cloudflare's Preview and Production `HUGO_VERSION` when deploying it. Avoid an automatic `latest` setting.
-
-Check the home page and pagination, post URLs, search, cover images, mobile navigation, dark mode, and comments. Utterances uses the existing `ChrisWK51/ChrisWK51` repository and `pathname` mapping, so keep post paths unchanged.
-
-The migration keeps the original post dates and URLs, including `/protfolio/`. Search uses Fuse.js with a small `layouts/index.json` override that provides one result per page and omits date labels for undated pages. The previous unused Markdown output and removed inline Font Awesome option have been dropped. DoIt's built-in share controls use Twitter/X, Facebook, Line, and Telegram; the previous Threads share control is not provided by this theme.
-
-For rollback, revert the migration commit and restore `HUGO_VERSION=0.145.0`. Cloudflare's [deployment rollback](https://developers.cloudflare.com/pages/configuration/rollbacks/) can restore the previously deployed files immediately.
-
-Branding instructions are in [docs/branding.md](docs/branding.md).
+This repository also contains my blog. Its setup, version pins, and Cloudflare Pages instructions are in the [site maintenance guide](docs/site-maintenance.md).

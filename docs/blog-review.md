@@ -63,7 +63,7 @@ This uses Hugo's documented [default page ordering](https://gohugo.io/quick-refe
 ## Existing technical follow-ups
 
 - The unused Markdown page output was removed during the September 2026 DoIt migration, resolving the previous missing-template warning.
-- Cloudflare Pages builds the site. GitHub Pages publishes a redirect to kitkoon.com, and the separate Hugo check workflow validates builds. Current versions and deployment settings are in [the README](../README.md).
+- Cloudflare Pages builds the site. GitHub Pages publishes a redirect to kitkoon.com, and the separate Hugo check workflow validates builds. Current versions and deployment settings are in [the site maintenance guide](site-maintenance.md).
 
 Review scope: local content, configuration, theme behavior, and generated pages. The live domain could not be retrieved during the review; external project repositories and their implementation claims were not audited.
 

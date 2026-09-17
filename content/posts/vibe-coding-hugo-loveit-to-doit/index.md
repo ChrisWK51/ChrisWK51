@@ -99,4 +99,5 @@ The blog still looks familiar, the raccoon is still here, and I finally made the
 - [Hugo 0.166.0 release](https://github.com/gohugoio/hugo/releases/tag/v0.166.0)
 - [DoIt v1.0.2 release](https://github.com/HEIGE-PCloud/DoIt/releases/tag/v1.0.2)
 - [Cloudflare Pages: choosing a Hugo version](https://developers.cloudflare.com/pages/framework-guides/deploy-a-hugo-site/#use-a-specific-or-newer-hugo-version)
-- [This site's source and build instructions](https://github.com/ChrisWK51/ChrisWK51)
+- [This site's source](https://github.com/ChrisWK51/ChrisWK51)
+- [Build and deployment instructions](https://github.com/ChrisWK51/ChrisWK51/blob/master/docs/site-maintenance.md)
