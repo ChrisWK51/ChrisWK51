@@ -19,8 +19,10 @@ toc:
 ---
 
 ## Overview
-This is the personal site you are visiting, created with [Hugo](https://gohugo.io/) and the [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme. It was originally hosted on **GitHub Pages**.
+This is the personal site you are visiting, originally created with [Hugo](https://gohugo.io/) and the [**LoveIt**](https://themes.gohugo.io/themes/loveit/) theme on **GitHub Pages**.
 It serves as a place for me to share my thoughts, projects, and interests with the world.
+
+In September 2026, I upgraded Hugo and moved to [**DoIt**](https://hugodoit.pages.dev/), a theme based on LoveIt, while keeping the existing post URLs and raccoon branding. The site is now hosted on **Cloudflare Pages**.
 
 ## Features
 - Personal blog posts
@@ -41,4 +43,5 @@ So, I hope you will enjoy my new personal home page!
 - [Source Code](https://github.com/ChrisWK51/ChrisWK51)
 - [Hugo](https://gohugo.io/)
 - [LoveIt](https://themes.gohugo.io/themes/loveit/)
+- [DoIt](https://github.com/HEIGE-PCloud/DoIt)
 

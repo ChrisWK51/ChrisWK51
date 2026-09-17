@@ -62,8 +62,8 @@ This uses Hugo's documented [default page ordering](https://gohugo.io/quick-refe
 
 ## Existing technical follow-ups
 
-- The configuration requests Markdown page output, but the theme has no matching template. Hugo builds HTML successfully and emits a warning for that output.
-- The GitHub Actions workflow currently publishes a redirect to kitkoon.com. It does not build this Hugo site. Publish these source changes through whichever service currently builds that domain.
+- The unused Markdown page output was removed during the September 2026 DoIt migration, resolving the previous missing-template warning.
+- Cloudflare Pages builds the site. GitHub Pages publishes a redirect to kitkoon.com, and the separate Hugo check workflow validates builds. Current versions and deployment settings are in [the README](../README.md).
 
 Review scope: local content, configuration, theme behavior, and generated pages. The live domain could not be retrieved during the review; external project repositories and their implementation claims were not audited.
 

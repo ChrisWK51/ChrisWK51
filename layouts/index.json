@@ -1,0 +1,28 @@
+{{- /* One result per page; undated pages such as Projects have no date label. */ -}}
+{{- $index := slice -}}
+{{- $pages := site.RegularPages -}}
+{{- if site.Params.page.hiddenFromSearch -}}
+  {{- $pages = where $pages "Params.hiddenfromsearch" false -}}
+{{- else -}}
+  {{- $pages = where $pages "Params.hiddenfromsearch" "!=" true -}}
+{{- end -}}
+{{- range $pages -}}
+  {{- $uri := .RelPermalink -}}
+  {{- if site.Params.search.absoluteURL -}}
+    {{- $uri = .Permalink -}}
+  {{- end -}}
+  {{- $params := .Params | merge site.Params.page -}}
+  {{- $content := dict "Content" .Content "Ruby" $params.ruby "Fraction" $params.fraction | partial "function/content.html" -}}
+  {{- $content = $content | plainify | htmlUnescape | replaceRE `\s+` " " -}}
+  {{- with site.Params.search.contentLength -}}
+    {{- if gt . 0 -}}
+      {{- $content = substr $content 0 . -}}
+    {{- end -}}
+  {{- end -}}
+  {{- $date := "" -}}
+  {{- if not .PublishDate.IsZero -}}
+    {{- $date = .PublishDate.Format (site.Params.dateFormat | default "2006-01-02") -}}
+  {{- end -}}
+  {{- $index = $index | append (dict "objectID" $uri "uri" $uri "title" .Title "date" $date "content" $content) -}}
+{{- end -}}
+{{- $index | jsonify | safeJS -}}
