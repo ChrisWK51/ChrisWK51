@@ -1,6 +1,6 @@
 ---
-title: "KitKoon's Home"
-description: "Projects and development notes from KitKoon, a full-stack developer in Hong Kong."
+title: "Kit Koon's Home"
+description: "Projects and development notes from Kit Koon, a full-stack developer in Hong Kong."
 ---
 
 I build web applications and share what I learn along the way.

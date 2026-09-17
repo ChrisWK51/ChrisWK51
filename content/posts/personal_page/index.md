@@ -3,7 +3,7 @@ title: "Building My Personal Site with Hugo"
 date: 2025-05-20T17:26:00+08:00
 lastmod: 2025-05-20T17:26:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "Why I rebuilt my personal site with Hugo and the LoveIt theme after maintaining a React portfolio."
 summary: "Why I rebuilt my personal site with Hugo and the LoveIt theme after maintaining a React portfolio."
@@ -23,6 +23,8 @@ This is the personal site you are visiting, originally created with [Hugo](https
 It serves as a place for me to share my thoughts, projects, and interests with the world.
 
 In September 2026, I upgraded Hugo and moved to [**DoIt**](https://hugodoit.pages.dev/), a theme based on LoveIt, while keeping the existing post URLs and raccoon branding. The site is now hosted on **Cloudflare Pages**.
+
+I wrote about the upgrade, the AI-assisted workflow, and the deployment problems in [Vibe Coding My Hugo Upgrade: From LoveIt to DoIt]({{< relref "/posts/vibe-coding-hugo-loveit-to-doit" >}}).
 
 ## Features
 - Personal blog posts

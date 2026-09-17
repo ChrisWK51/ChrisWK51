@@ -1,6 +1,6 @@
 baseURL = "https://www.kitkoon.com/"
 theme = "DoIt"
-title = "KitKoon's Home"
+title = "Kit Koon's Home"
 defaultContentLanguage = "en"
 locale = "en"
 hasCJKLanguage = false
@@ -48,12 +48,12 @@ enableEmoji = true
   defaultTheme = "auto"
   mainSections = ["posts"]
   dateFormat = "2006-01-02"
-  title = "KitKoon's personal page"
-  description = "Projects and development notes from KitKoon, a full-stack developer in Hong Kong."
+  title = "Kit Koon's personal page"
+  description = "Projects and development notes from Kit Koon, a full-stack developer in Hong Kong."
   images = ["https://github.com/ChrisWK51.png"]
 
   [params.author]
-    name = "KitKoon"
+    name = "Kit Koon"
     email = "contact@kitkoon.com"
     link = "/about/"
 

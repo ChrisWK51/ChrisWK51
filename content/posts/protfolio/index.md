@@ -3,7 +3,7 @@ title: "My First Portfolio with React"
 date: 2022-01-05T00:00:00+08:00
 lastmod: 2025-05-21T00:00:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "My archived React and Bootstrap portfolio, built in 2022 while learning web development."
 summary: "My archived React and Bootstrap portfolio, built in 2022 while learning web development."

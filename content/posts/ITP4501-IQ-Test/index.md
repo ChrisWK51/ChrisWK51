@@ -3,7 +3,7 @@ title: "IQ Test: An Android App in Java"
 date: 2020-07-16T00:00:00+08:00
 lastmod: 2025-05-21T16:10:00+08:00
 draft: false
-author: "KitKoon"
+author: "Kit Koon"
 authorLink: "/about/"
 description: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
 summary: "A Java Android app with timed reasoning questions, score history, and SQLite storage, built for ITP4501 at HKIVE."
