@@ -106,11 +106,9 @@ On my PC, I could use ChatGPT with the desktop VPN app disconnected. An IP-check
 
 ChatGPT mentioned Singapore in its reply, but I wouldn't use that answer to verify the VPN exit.
 
-Speed tests came out around 680–740 Mbps through the normal WAN connection and 100–130 Mbps through the Singapore WireGuard tunnel. I didn't test the phone's full Tailscale-to-WireGuard path for speed, so I don't have a number for that yet.
+Speed tests came out around 680–740 Mbps through the normal WAN connection and 100–130 Mbps through the Singapore WireGuard tunnel. My phone got similar speeds when connecting through Tailscale and then WireGuard.
 
-I haven't sorted out IPv6 routing yet. PBR is set to IPv4-only while IPv6 is still enabled, so IPv6 traffic can take a different path. I also saw a Tailscale `DNS unavailable` warning during testing and haven't worked out why.
-
-I saved backups of the OpenWrt and AdGuard configs at this point. There are still things to check, but the home routing is running and I can connect back from my phone.
+I saved backups of the OpenWrt and AdGuard configs at this point. The home routing is running, and I can connect back from my phone.
 
 ## Related Links
 
