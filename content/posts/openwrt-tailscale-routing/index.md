@@ -100,6 +100,12 @@ I also added subnet routing so I could open the router's admin page away from ho
 
 ## What works so far
 
+On my PC, I could use ChatGPT with the desktop VPN app disconnected. An IP-check page still showed my usual Hong Kong ISP.
+
+![ChatGPT working beside a disconnected desktop VPN app and an IP-check page showing a Hong Kong ISP; the conversation URL is covered.](chatgpt-desktop-result-redacted.png)
+
+ChatGPT mentioned Singapore in its reply, but I wouldn't use that answer to verify the VPN exit.
+
 Speed tests came out around 680–740 Mbps through the normal WAN connection and 100–130 Mbps through the Singapore WireGuard tunnel. I didn't test the phone's full Tailscale-to-WireGuard path for speed, so I don't have a number for that yet.
 
 I haven't sorted out IPv6 routing yet. PBR is set to IPv4-only while IPv6 is still enabled, so IPv6 traffic can take a different path. I also saw a Tailscale `DNS unavailable` warning during testing and haven't worked out why.
