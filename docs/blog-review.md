@@ -4,7 +4,8 @@ The site works best with two entry points: a chronological blog for returning re
 
 ## Organization applied
 
-- **Home and Blog:** newest posts first. Removed all post weights, which previously pushed the current Hugo site behind older work.
+- **Home:** Welcome to My Blog is pinned first with `pinOnHome: true`; the remaining posts are newest first. The pin applies before pagination, so the welcome post appears only once.
+- **Blog, categories, tags, and RSS:** newest posts first. Post weights remain unset so the homepage pin does not affect these lists.
 - **Projects:** featured work, learning and coursework, then archived projects. Tutorial work is clearly identified.
 - **Navigation:** About, Blog, Projects, and Tags. Existing category pages remain available through post metadata.
 - **Post previews:** explicit summaries, descriptive titles, consistent author names, and links to the current About page.
@@ -17,16 +18,18 @@ No post dates or existing post URLs were changed. The spelling of the existing /
 
 | Position | Post | Recorded date |
 | --- | --- | --- |
-| 1 | Next.js Dashboard: Learning Full-Stack Development | 2025-09-26 |
-| 2 | Building My Personal Site with Hugo | 2025-05-20, 17:26 HKT |
-| 3 | Welcome to My Blog | 2025-05-20, 00:00 HKT |
-| 4 | MIPS Radix Converter | 2023-03-26 |
-| 5 | CDC Bot: A Python Discord Bot | 2022-04-22 |
-| 6 | My First Portfolio with React | 2022-01-05 |
-| 7 | TimelyTaste: A Food Delivery Backend | 2022-01-05 |
-| 8 | IQ Test: An Android App in Java | 2020-07-16 |
+| 1 (pinned) | Welcome to My Blog | 2025-05-20, 00:00 HKT |
+| 2 | OpenWrt and Tailscale: My VPN Routing at Home and Away | 2026-10-01 |
+| 3 | Vibe Coding My Hugo Upgrade: From LoveIt to DoIt | 2026-09-17 |
+| 4 | Next.js Dashboard: Learning Full-Stack Development | 2025-09-26 |
+| 5 | Building My Personal Site with Hugo | 2025-05-20, 17:26 HKT |
+| 6 | MIPS Radix Converter | 2023-03-26 |
+| 7 | CDC Bot: A Python Discord Bot | 2022-04-22 |
+| 8 | My First Portfolio with React | 2022-01-05 |
+| 9 | TimelyTaste: A Food Delivery Backend | 2022-01-05 |
+| 10 | IQ Test: An Android App in Java | 2020-07-16 |
 
-The homepage shows six posts per page and uses title order to break timestamp ties. Year-grouped archives may order tied posts differently. TimelyTaste still leads the curated Projects page.
+The homepage shows six posts per page, including the pinned welcome post on page one, and uses title order to break timestamp ties among the other posts. Year-grouped archives may order tied posts differently. TimelyTaste still leads the curated Projects page.
 
 **Check TimelyTaste's date:** its timestamp exactly matches the old React portfolio's timestamp. Confirm the actual date before changing it; the current date alone does not establish an error.
 
@@ -53,6 +56,7 @@ The About page could also be shorter: lead with what you build, follow with educ
 
 1. Create a post with Hugo, for example: hugo new content posts/my-project/index.md.
 2. Use the date field for the post's intended place in the timeline and lastmod for subsequent revisions. Leave weight unset for chronological ordering.
+   The welcome post uses `pinOnHome: true` for homepage-only pinning. The local `layouts/_partials/head/paginator.html` override applies this before DoIt's pagination; keep its section and taxonomy handling in sync when updating the theme.
 3. Write a short description for metadata and a summary for the homepage preview.
 4. For a project, use the existing project category and technology tags with consistent spelling.
 5. Add the project to the appropriate group in content/projects/index.md. This page's order is maintained independently of publication dates.
@@ -70,3 +74,7 @@ Review scope: local content, configuration, theme behavior, and generated pages.
 ## Validation
 
 Built successfully with Hugo Extended 0.145.0 and the repository's pinned LoveIt theme, including production Git metadata. Checked chronological ordering across both homepage pages, the Blog archive, the project category, and both RSS feeds. Verified all seven curated project links, preserved all 67 existing HTML paths, and confirmed that post dates are unchanged. Checked the Projects page in a local browser. The existing Markdown-output warning remains.
+
+## Homepage pin validation (2026-10-02)
+
+Built with the pinned Hugo Extended 0.166.0 and passed the existing site checks: 86 HTML files, local links/assets, 12 unique search results, and both main post feeds. Compared builds before and after the change: all 10 posts appear once across the two homepage pages, Welcome is first, and the remaining posts keep their chronological order. All 35 archive/category/tag pages and 37 RSS feeds retain their previous post order; feed publication dates are unchanged.
