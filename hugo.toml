@@ -19,26 +19,66 @@ enableEmoji = true
   pagerSize = 10
   path = "page"
 
-[menu]
-  [[menu.main]]
+[languages.en]
+  label = "English"
+  weight = 1
+
+[languages.zh-tw]
+  label = "繁體中文"
+  locale = "zh-TW"
+  weight = 2
+  hasCJKLanguage = true
+  title = "Kit Koon 的網誌"
+
+  [languages.zh-tw.params]
+    title = "Kit Koon 的個人網站"
+    description = "一個香港全端開發者嘅作品同開發筆記。"
+  [languages.zh-tw.params.home.profile]
+    subtitle = "香港全端開發者"
+  [languages.zh-tw.params.author]
+    link = "/zh-tw/about/"
+
+  [[languages.zh-tw.menus.main]]
+    identifier = "about"
+    name = "關於我"
+    pageRef = "/about"
+    weight = 1
+  [[languages.zh-tw.menus.main]]
+    identifier = "posts"
+    name = "網誌"
+    pageRef = "/posts"
+    weight = 2
+  [[languages.zh-tw.menus.main]]
+    identifier = "project"
+    name = "作品"
+    pageRef = "/projects"
+    weight = 3
+  [[languages.zh-tw.menus.main]]
+    identifier = "tags"
+    name = "標籤"
+    pageRef = "/tags"
+    weight = 4
+
+[languages.en.menus]
+  [[languages.en.menus.main]]
     identifier = "about"
     name = "About"
     url = "/about/"
     title = "About me"
     weight = 1
-  [[menu.main]]
+  [[languages.en.menus.main]]
     identifier = "posts"
     name = "Blog"
     url = "/posts/"
     title = "All posts, newest first"
     weight = 2
-  [[menu.main]]
+  [[languages.en.menus.main]]
     identifier = "project"
     name = "Projects"
     url = "/projects/"
     title = "Selected projects and earlier work"
     weight = 3
-  [[menu.main]]
+  [[languages.en.menus.main]]
     identifier = "tags"
     name = "Tags"
     url = "/tags/"
