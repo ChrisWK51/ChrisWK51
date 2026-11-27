@@ -18,21 +18,11 @@ toc:
   auto: false
 ---
 
-## 簡介
+我喺 2022 年用 React 整咗[第一個作品集]({{< relref "/posts/protfolio" >}})。之後想寫多啲文，每次返去改個站都有啲麻煩，所以今次試咗 [Hugo](https://gohugo.io/)。
 
-你而家睇緊嘅就係呢個作品。最初我用 [Hugo](https://gohugo.io/) 同 [LoveIt](https://themes.gohugo.io/themes/loveit/) 主題，部署喺 **GitHub Pages**，用嚟寫文同放作品。
+最初我揀 [LoveIt](https://themes.gohugo.io/themes/loveit/) 做主題，放喺 GitHub Pages。平時用嚟寫 blog、放作品，舊文可以用搜尋搵返，首頁亦有我嘅社交平台連結。
 
-2026 年 9 月我升級咗 Hugo，換成基於 LoveIt 嘅 [DoIt](https://hugodoit.pages.dev/) 主題，保留咗舊文章網址同浣熊標誌。網站而家放喺 **Cloudflare Pages**。升級同部署嗰陣遇到嘅問題，我寫咗喺[由 LoveIt 搬去 DoIt]({{< relref "/posts/vibe-coding-hugo-loveit-to-doit" >}})嗰篇。
-
-## 功能
-
-- 寫網誌同展示作品
-- 搜尋文章
-- 連去我嘅社交平台
-
-## 學到啲咩
-
-我喺 2022 年整咗[上一版個人網站]({{< relref "/posts/protfolio" >}})，但之後每次想更新內容都有啲麻煩。今次揀 Hugo 同 LoveIt，主要係想以後寫文、改樣同維護都容易啲，讀者搵作品亦方便啲。
+2026 年 9 月我再升級 Hugo，換咗 [DoIt](https://hugodoit.pages.dev/) 主題。個站而家喺 Cloudflare Pages，舊文章網址同隻浣熊都留低咗。點解要換，同埋 Cloudflare 點解一路裝返舊版 Hugo，我寫咗喺[升級嗰篇]({{< relref "/posts/vibe-coding-hugo-loveit-to-doit" >}})。
 
 ## 相關連結
 

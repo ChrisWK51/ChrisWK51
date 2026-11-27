@@ -18,19 +18,9 @@ toc:
   auto: false
 ---
 
-## 簡介
+2022 年啱啱學 [React](https://reactjs.org/) 同 [Bootstrap](https://getbootstrap.com/)，我就攞自己個人首頁嚟練手。入面有自我介紹、作品、平時嘅分享同社交平台連結，整完放咗上 GitHub Pages。
 
-呢個係我舊嘅個人首頁，用 [React](https://reactjs.org/) 同 [Bootstrap](https://getbootstrap.com/) 整，再放上 **GitHub Pages**。當時想有個地方介紹自己、擺作品同分享興趣。
-
-呢一版已經封存。而家個站點整，可以睇[用 Hugo 搭我嘅個人網站]({{< relref "/posts/personal_page" >}})。
-
-## 功能
-
-有自我介紹、個人分享、作品展示，同埋去我其他社交平台嘅連結。
-
-## 學到啲咩
-
-2022 年我啱啱學網頁開發，想搵個規模細啲嘅 project 練手。用自己嘅作品集做題目，啱好可以一邊試 React，一邊學點用 Bootstrap 排版。
+呢一版已經封存，仲可以喺 GitHub 睇返當時點寫。你而家睇緊呢個站係[後來用 Hugo 整嘅版本]({{< relref "/posts/personal_page" >}})。
 
 ## 相關連結
 

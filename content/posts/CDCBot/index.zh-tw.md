@@ -18,22 +18,11 @@ toc:
   auto: false
 ---
 
-## 簡介
+CDC Bot 以前喺幾個私人 Discord server 用過一排。嗰陣想慳返啲管理工夫，我就用 Python 同 [Discord.py](https://discordpy.readthedocs.io/) 寫咗個 bot，而家已經停用。
 
-我寫 CDC Bot 嗰陣，想將 Discord 伺服器入面啲重複工作交畀機械人處理，順便加幾個好玩嘅指令。程式用 **Python** 同 [Discord.py](https://discordpy.readthedocs.io/)，另外用 Flask 配 UptimeRobot 監察佢係咪仲在線。
+管理員可以叫佢禁言、封鎖成員或者清訊息。平時大家亦可以玩自訂指令，有活動就用 webhook 喺頻道出通知。
 
-佢喺幾個私人伺服器用過一排，而家已經停用。
-
-## 功能
-
-- 管理員可以將成員禁言、封禁或者清除訊息。
-- 成員可以用自訂指令同機械人互動。
-- 用 webhook 將指定活動嘅通知傳入頻道。
-- 用 Flask 同 UptimeRobot 留意服務有冇中斷。
-
-## 學到啲咩
-
-呢個係我第一次用 Python 接 API。寫完指令仲要等 Discord 嘅事件、處理非同步回應，再諗點樣知道個 bot 有冇跌線。最開心係見到朋友真係會喺伺服器用佢。之後有機會想重寫一版，亦想試整 Telegram bot。
+呢個係我第一次用 Python 接 API。Discord 有人落指令，個 bot 先收到事件再回應，我寫佢嗰陣先開始接觸非同步程式。要知個 bot 仲有冇在線，我用咗 Flask 配 UptimeRobot。之後有機會想重寫一版，順便試吓 Telegram bot。
 
 ## 相關連結
 

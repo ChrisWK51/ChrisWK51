@@ -6,8 +6,8 @@ draft: false
 pinOnHome: true
 author: "Kit Koon"
 authorLink: "/zh-tw/about/"
-description: "第一次嚟？呢度有我整過嘅作品、開發筆記同興趣。"
-summary: "第一次嚟？呢度有我整過嘅作品、開發筆記同興趣。"
+description: "我係 Kit，呢個 blog 用嚟記低我寫過嘅程式，間中都會講吓打機。"
+summary: "我係 Kit，呢個 blog 用嚟記低我寫過嘅程式，間中都會講吓打機。"
 images: []
 featuredImage: "featured-image.jpg"
 resources:
@@ -23,29 +23,12 @@ toc:
   auto: false
 ---
 
-## 呢個網誌
+你好，我係 Kit。開呢個 blog 係因為有時搞掂一樣嘢，過一排自己都唔記得當時點整，索性寫低。平時多數寫程式同屋企試過嘅設定，間中都會講吓打機。你試過類似嘅嘢，歡迎留言。
 
-你好，歡迎嚟到我嘅個人網站！最初我用 [Hugo](https://gohugo.io/) 配 [LoveIt](https://themes.gohugo.io/themes/loveit/)，將網站放喺 GitHub Pages。而家用緊 [DoIt](https://hugodoit.pages.dev/) 主題，由 Cloudflare Pages 託管。
+個站最初用 [Hugo](https://gohugo.io/) 同 [LoveIt](https://themes.gohugo.io/themes/loveit/)，放喺 GitHub Pages。後來換咗 [DoIt](https://hugodoit.pages.dev/)，而家放喺 Cloudflare Pages。文章日期用香港時間（UTC+8）。
 
-## 點解開呢個站
-
-我想有個地方寫自己有興趣嘅嘢。有時係啱啱整好嘅 project，有時係卡咗一輪先搵到答案嘅問題，寫低就方便之後翻睇，其他人遇到亦有個參考。
-
-## 呢度有咩睇
-
-除咗程式開發同作品介紹，我亦會寫吓近排學緊嘅嘢，間唔中講吓遊戲。睇完有諗法，歡迎留個言。
-
-## 認識吓我
-
-我嘅背景同興趣放咗喺[關於我]({{< relref "/about" >}})。想睇我寫過啲咩，可以由[精選作品]({{< relref "/projects" >}})開始，或者直接去 [GitHub](https://github.com/ChrisWK51) 睇原始碼。
-
-## 時區
-
-呢個站用香港時間（HKT，UTC+8）。
+想睇我整過啲咩，可以去[作品頁]({{< relref "/projects" >}})或者直接睇 [GitHub](https://github.com/ChrisWK51)。我嘅背景同平時玩咩 game 就寫咗喺[關於我]({{< relref "/about" >}})。
 
 ## 搵我
 
-- [GitHub](https://github.com/ChrisWK51)
-- [LinkedIn](https://linkedin.com/in/koonchris)
-- [Discord](https://discordapp.com/users/924571292244525057)
-- [電郵](mailto:contact@kitkoon.com)
+[GitHub](https://github.com/ChrisWK51) · [LinkedIn](https://linkedin.com/in/koonchris) · [Discord](https://discordapp.com/users/924571292244525057) · [電郵](mailto:contact@kitkoon.com)

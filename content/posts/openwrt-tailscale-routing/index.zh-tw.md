@@ -1,5 +1,5 @@
 ---
-title: "用 OpenWrt 同 Tailscale，喺屋企同出街都用到同一套 VPN 分流"
+title: "屋企用 OpenWrt 分流，出街用 Tailscale 連返嚟"
 date: 2026-10-01T00:00:00+08:00
 lastmod: 2026-10-01
 draft: false
@@ -18,21 +18,19 @@ toc:
   auto: false
 ---
 
-## 簡介
+我用 ChatGPT 嗰陣唔想次次都開 VPN，尤其係其他網站用屋企條線已經得。我想個 router 幫我揀：去 ChatGPT 就行 VPN，其他照舊。出街用手機，只要經 Tailscale 連返屋企就用得返同一套設定。
 
-我想用 ChatGPT 嗰陣自動行 VPN，其他網站就照用屋企條線。出街用手機，都想經 Tailscale 連返屋企，用返同一套分流。
-
-個諗法受 [Eric Leung 呢篇文](https://ericleung.dev/posts/009_subscribing_to_openai/)啟發，尤其係佢講 OpenWrt 同 Tailscale 嗰兩節。同[上次升級 Hugo]({{< relref "/posts/vibe-coding-hugo-loveit-to-doit" >}})一樣，今次卡住嘅時候我會貼截圖同 terminal 輸出畀 AI 一齊睇。下面啲圖已經遮咗 key 同網絡地址。
+睇完 [Eric Leung 篇文](https://ericleung.dev/posts/009_subscribing_to_openai/)入面講 OpenWrt 同 Tailscale 嗰兩節，我就想用屋企部舊 ASUS 試吓。今次同[上次升級 Hugo]({{< relref "/posts/vibe-coding-hugo-loveit-to-doit" >}})一樣，卡住就 cap 圖或者貼段 log 畀 AI 睇。下面啲圖遮咗 key 同 IP。
 
 ## 由舊路由器開始
 
-屋企有部舊 ASUS RT-AC68U，我就攞佢做主路由。原本套 NETGEAR SXR50 mesh 繼續負責 Wi-Fi 同有線連接，轉做 AP 模式，駁喺 AC68U 後面。NanoPi M6 本身已經跑緊 AdGuard Home，負責 DNS 同 DHCP，今次再加埋 Tailscale。
+我用 RT-AC68U 做主 router，原本嗰套 NETGEAR SXR50 mesh 就轉 AP 模式，駁喺 ASUS 後面繼續做 Wi-Fi 同有線網絡。至於 Tailscale，我裝咗喺 NanoPi M6。佢本身已經用 AdGuard Home 做緊 DNS 同 DHCP。
 
-裝 OpenWrt 嗰陣，明明 ping 到部機，但瀏覽器點開都 timeout。後尾終於入到 ASUS CFE 復原頁面，先喺嗰度上載韌體。
+裝機嗰陣最奇怪係明明 ping 到部 ASUS，但一開管理頁就 timeout。後來入到 ASUS CFE 個 recovery page，先至喺嗰度上載到 OpenWrt。
 
 ![ASUS CFE 復原頁面，可以喺度上載 OpenWrt 韌體。](asus-cfe-recovery-redacted.png)
 
-入到 LuCI 又有另一個問題，裝 WireGuard 嗰陣話搵唔到相依套件 `ip`。
+入到 LuCI，諗住可以裝 WireGuard，點知又話搵唔到佢要用嘅 `ip` 套件。
 
 ![LuCI 顯示缺少 ip，裝唔到 luci-proto-wireguard。](wireguard-package-error.png)
 
@@ -56,7 +54,7 @@ toc:
 
 ## 點解要改 DNS
 
-屋企啲裝置本身問 AdGuard Home 攞 DNS 答案。OpenWrt 都要見到相關查詢，先知道邊啲 IP 應該行邊條 tunnel。WireGuard 握手成功，只係代表條線通咗。
+我填落 PBR 嘅係 domain，但 router 送封包嗰陣睇嘅係 IP。問題係屋企啲機一路都用 AdGuard Home 做 DNS。如果 AdGuard 自己答咗，OpenWrt 又點知今次查到邊個 IP？
 
 我跟 [PBR 文件](https://docs.mossdef.org/pbr/)，將路由器嘅 `dnsmasq` 換成 `dnsmasq-full`，喺 PBR 揀 **Dnsmasq nft set**。AdGuard 遇到清單入面嘅 domain 就交畀 OpenWrt 解析，其餘照用 AdGuard 平時嘅上游 DNS。
 
@@ -68,7 +66,7 @@ toc:
 
 DHCP 繼續由 AdGuard 負責。OpenWrt 嘅 DHCP 可以關，但佢嘅 DNS 要開住。
 
-測試嗰陣我一路睇 `wg show wg_sg` 同 PBR 目的地址集合。睇到最近嘅握手時間、收發數字有郁，集合入面亦有地址。呢幾樣畀我判斷到邊部分有反應，但我未逐個請求追過條路。
+我用 `wg show wg_sg` 睇到新加坡條 tunnel 有握手，收發數字都有郁。再睇 PBR 個 set，入面搵到頭先 DNS 查返嚟嘅 IP。咁就知條 tunnel 通，個分流規則亦收到地址。至於 app 入面每個 request 行咗邊，我冇逐個追。
 
 ![WireGuard 握手、收發數字，同 PBR 集合入面嘅目的地址紀錄。](wireguard-pbr-check-redacted.png)
 
@@ -86,7 +84,7 @@ flowchart TD
     Router -->|其他流量| ISP[屋企寬頻]
 ```
 
-手機揀咗 M6 之後，查 IP 網站由顯示流動網絡商變成屋企嘅寬頻商，即係已經連返屋企。個查詢網站本身係行 WAN；要確認手機上 ChatGPT 嗰下有冇經新加坡，仲要對返 WireGuard 流量。
+我喺手機試咗一次。揀 M6 之前，查 IP 個網顯示我嘅手機網絡商，揀完就見到屋企用嗰間寬頻公司。咁我就知手機已經連返屋企。查 IP 個網本身行 WAN，要睇 ChatGPT 有冇行新加坡，仲要對返 WireGuard 嘅流量。
 
 [Tailscale 通常會用 exit node 嘅 DNS](https://tailscale.com/docs/reference/dns-in-tailscale#nameservers-and-exit-nodes)，所以 M6 嘅 DNS 查詢都要去到 OpenWrt 嘅 domain 規則。我亦開咗 subnet routing，出街都入到路由器管理頁。後來試過唔揀 exit node，用 App Connector 淨係將指定網站流量送返屋企。不過我最初想要嘅，係手機成條線都經屋企出。
 
@@ -96,11 +94,11 @@ flowchart TD
 
 ![電腦冇連 VPN app 都用到 ChatGPT，查 IP 嗰頁顯示香港寬頻商；對話網址已遮蓋。](chatgpt-desktop-result-redacted.png)
 
-ChatGPT 喺答案提到新加坡，我唔會用佢嗰句嚟驗證實際出口。
+我問 ChatGPT「where am i?」，佢估係新加坡。呢個係佢估嘅位置，實際行邊條線仲要睇返 router。
 
 平時行 WAN 測到大約 680–740 Mbps，行新加坡 WireGuard 就大約 100–130 Mbps。手機經 Tailscale 返屋企再行 WireGuard，速度都差唔多。
 
-試完我備份咗 OpenWrt 同 AdGuard 嘅設定。屋企用到分流，出街都可以用手機連返嚟。
+試通之後，我就備份咗 OpenWrt 同 AdGuard 嘅設定。
 
 ## 相關連結
 
